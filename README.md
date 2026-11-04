@@ -2,8 +2,8 @@
 
 A small static website, hosted on GitHub Pages:
 
-- `kickabout/`: Kickabout, a five-a-side football game.
-- `beats/`: Tigos Beats, a rhythm game.
+
+
 - `drill-board/`: the FootieBugs Drill Board. It is encrypted (AES-256-GCM, key from PBKDF2-SHA-256)
   and opens only with the team passcode. The passcode is never stored in this repository.
 
