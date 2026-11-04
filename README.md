@@ -1,4 +1,11 @@
 # Apps
 
-A small static website (GitHub Pages) with Kickabout, Tigos Beats and the FootieBugs Drill Board.
-The Drill Board is encrypted: it opens only with the team passcode.
+A small static website, hosted on GitHub Pages:
+
+- `kickabout/`: Kickabout, a five-a-side football game.
+- `beats/`: Tigos Beats, a rhythm game.
+- `drill-board/`: the FootieBugs Drill Board. It is encrypted (AES-256-GCM, key from PBKDF2-SHA-256)
+  and opens only with the team passcode. The passcode is never stored in this repository.
+
+There is no server, database or login. Anything people save stays on their own device.
+The pages ask search engines not to list them (`robots.txt` and `noindex`).
