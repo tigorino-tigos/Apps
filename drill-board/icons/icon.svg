@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#24612a"/>
+  <g transform="translate(256 256) scale(1.0250000000000001) translate(-256 -256)">
+    <mask id="cut" maskUnits="userSpaceOnUse" x="0" y="0" width="512" height="512"><rect width="512" height="512" fill="#fff"/><polygon points="210,268 302,236 302,248 210,290" fill="#000"/></mask>
+    <circle cx="256" cy="256" r="216" fill="none" stroke="#c9a227" stroke-width="10"/>
+    <g fill="#fff" mask="url(#cut)"><rect x="138" y="136" width="236" height="68"/><rect x="222" y="136" width="68" height="240"/></g>
+  </g></svg>
